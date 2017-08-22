@@ -1,0 +1,6 @@
+server:
+  port : 8081
+
+people:
+  name: Huawei
+  age: 100

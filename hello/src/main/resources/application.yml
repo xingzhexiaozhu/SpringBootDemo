@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: pro
+
+  datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://127.0.0.1:3306/learn
+     username: root
+     password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # create每次运行都删除原有表创建新表,update不用每次创建新表
+    show-sql: true # 打印SQL语句

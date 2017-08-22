@@ -1,0 +1,6 @@
+server:
+  port : 8080
+
+people:
+  name: Ceasar
+  age: 100
